@@ -13,7 +13,7 @@ module.exports = function (app) {
 
   //* API Routes
   app.get("/api/workouts", (req, res) => {
-    db.Workout.aggregate({})
+    db.Workout.aggregate([{$addFields: { totalDuration: {$sum: "$exercises.duration"}}}])
       .then((dbWorkout) => {
         res.json(dbWorkout);
       })
