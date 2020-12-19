@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
-//!REMOVE THIS COMMENT
 
 const WorkoutSchema = new Schema({
   day: {
