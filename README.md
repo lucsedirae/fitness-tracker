@@ -26,10 +26,18 @@ An app that keeps track of your workouts allowing you to measure progress over t
 <hr>
 
 ## Installation
-clone from github and run <npm i> prior to executing with <npm start>
+clone from github and run ```npm i```  prior to executing with ```npm start```
 
 ## Usage
+
 User will be able to immediately log multiple attributes of an exercise into a database that tracks, aggregates, and displays their workout data in a summary statistics chart
+
+![Fitness chart](chart.PNG)
+
+![Fitness home](tracker_home.PNG)
+
+![Add exercises](add_exercise.PNG)
+
 
 ## License
 Created under the MIT license. See LICENSE.txt for more information.
